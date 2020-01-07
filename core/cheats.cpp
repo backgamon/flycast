@@ -114,8 +114,8 @@ const Cheat CheatManager::_widescreen_cheats[] =
 		{ "T41501M   ", nullptr,    { 0x282604, 0x282634, 0 }, { 0x43F00000, 0x3F400000 } },	// Golem no Maigo (aka The Lost Golem) (JP)
 		{ "T1219M    ", nullptr,    { 0xBC3C94, 0 }, { 0x440A7C9A } },		// Gun Spike (JP)
 		{ "T13301N   ", nullptr,    { 0x88E780, 0 }, { 0x3F400000 } },		// Gundam Side Story (USA)
-//		{ "T11001N   ", nullptr,    { 0xC3D6BC, 0xD204A8, 0xD32FC8, 0xC7CF84, 0xD20548, 0 },
-//				{ 0x00363031, 0x00000356, 0x00000280, 0x00000280, 0x00000280 } },		// Half-Life. Not working
+		{ "T11001N   ", nullptr,    { 0xC3D6BC, 0xD204A8, 0xD32FC8, 0xC7CF84, 0xD20548, 0 },
+				{ 0x00363031, 0x00000356, 0x00000280, 0x00000280, 0x00000280 } },		// Half-Life. Not working
 		{ "MK-5104150", nullptr,    { 0x23FCC4, 0 }, { 0x44558000 } },		// Headhunter (PAL)
 		{ "MK-5100250", nullptr,    { 0x4C6708, 0 }, { 0x43700000 } },		// House of the Dead 2, The (PAL)
 		{ "MK-51002  ", nullptr,    { 0x4C6088, 0 }, { 0x43700000 } },		// House of the Dead 2, The (USA)
@@ -128,7 +128,7 @@ const Cheat CheatManager::_widescreen_cheats[] =
 		{ "T22902D 50", nullptr,    { 0x278508, 0 }, { 0x43700000 } },		// Kao The Kangaroo (PAL)
 		{ "T22903N   ", nullptr,    { 0x2780A8, 0 }, { 0x43700000 } },		// Kao The Kangaroo (USA)
 		{ "T47803M   ", nullptr,    { 0x0FDFAC, 0 }, { 0x3F400000 } },		// Karous (JP)
-//		{ "T41901N   ", nullptr,    { 0x53F580, 0xEFB748, 0xEFB750, 0 }, { 0xC4200000, 0x43A00000, 0x43200000 } },	// KISS Psycho Circus – The Nightmare Child (USA)
+		{ "T41901N   ", nullptr,    { 0x53F580, 0xEFB748, 0xEFB750, 0 }, { 0xC4200000, 0x43A00000, 0x43200000 } },	// KISS Psycho Circus – The Nightmare Child (USA)
 		{ "T2501M    ", nullptr,    { 0x24A878, 0x24A8A8, 0 }, { 0x43F00000, 0x3F400000 } },	// Langrisser Millenium (JP)
 		{ "T15111D 50", nullptr,    { 0x29B90C, 0 }, { 0x3F400000 } },		// Le Mans 24 Hours (PAL)
 		{ "T15116N   ", nullptr,    { 0x2198EC, 0 }, { 0x3F400000 } },		// Looney Tunes: Space Race (USA)
@@ -180,6 +180,7 @@ const Cheat CheatManager::_widescreen_cheats[] =
 		{ "xxxxxxxxxx", nullptr,    { 0x4FF25C, 0x4FF28C, 0 }, { 0x43F00000, 0x3F400000 } },	// Record of Lodoss War (De) (PAL)
 		{ "T7012D  09", nullptr,    { 0x50499C, 0x5049CC, 0 }, { 0x43F00000, 0x3F400000 } },	// Record of Lodoss War (Fr) (PAL)
 		{ "MK-5102151", nullptr,    { 0x3511A0, 0 }, { 0x3FC58577 } },		// Red Dog (PAL)
+	        { "HDR-0074", nullptr,    { 0x1FF60C, 0x1FF610, 0x1FF5DC, 0 }, { 0x3F400000, 0x3F800000, 0x43DC0000 } },	//Rent a Hero n°1
 		// Resident Evil: Code Veronica (De) (PAL)
 		// Code 1-4 removes the black bars on top and bottom in FMV
 		{ "xxxxxxxxxx", nullptr,    { 0x32A380, 0x383E18, 0x383E38, 0x383E58, 0x383E78, 0 },
@@ -240,6 +241,7 @@ const Cheat CheatManager::_widescreen_cheats[] =
 				{ 0x3F400000, 0x42900000, 0x42900000, 0x43CE0000, 0x43CE0000 } },
 //		{ "T7014D  50", nullptr,    { 0xE2B234, 0 }, { 0x3F800000 } },		// Super Runabout (PAL) doesn't work?
 		{ "T17721D 50", nullptr,    { 0x45CED4, 0 }, { 0x3F400000 } },		// Surf Rocket Racers (PAL) alt: 021EBF40 3F400000
+	        { "T17703D 50", nullptr,    { 0xCD8950, 0 }, { 0x3F111111 } },		// Suzuki Alstare Extreme Racing
 		{ "T36807D 05", nullptr,    { 0x140F74, 0x140FA4, 0 }, { 0x43FA0000, 0x3F400000 } },	// Sword of Bersek (PAL)
 		{ "T-36805N  ", nullptr,    { 0x13F1C4, 0x13F194, 0 }, { 0x3F400000, 0x43F00000 } },	// Sword of Bersek (USA)
 		{ "MK-51186  ", nullptr,    { 0x4A19B0, 0 }, { 0x43700000 } },		// Tennis 2K2 (USA)
@@ -260,8 +262,8 @@ const Cheat CheatManager::_widescreen_cheats[] =
 		{ "T40203D 50", nullptr,    { 0x1D74E8, 0x1D7518, 0 }, { 0x43F00000, 0x3F400000 } },	// Ultimate Fighting Championship (PAL)
 		{ "T40204N   ", nullptr,    { 0x1A9684, 0 }, { 0x3F400000 } },		// Ultimate Fighting Championship (USA) problems with cam in game
 		{ "T-8110D-50", nullptr,    { 0x0C6B90, 0x0C6B94, 0 }, { 0x43F00000, 0x43870000 } },	// Vanishing Point (PAL)
-//		{ "MK-5109450", nullptr,    { 0x244134, 0x7A73B8, 0x7830D8, 0x7A74B8, 0x783138, 0x7A85A0, 0x6C7928, 0x6C7930, 0x6C7948, 0x6C7950, 0 },
-//crash				{ 0x43F00000, 0x3F9C932E, 0x3F9C932E, 0x3F9C932E, 0x3F9C932E, 0x3F400000, 0, 0, 0, 0 } },	// Virtua Athlete 2K (PAL)
+		{ "MK-5109450", nullptr,    { 0x244134, 0x7A73B8, 0x7830D8, 0x7A74B8, 0x783138, 0x7A85A0, 0x6C7928, 0x6C7930, 0x6C7948, 0x6C7950, 0 },
+				{ 0x43F00000, 0x3F9C932E, 0x3F9C932E, 0x3F9C932E, 0x3F9C932E, 0x3F400000, 0 } },	// Virtua Athlete 2K (PAL)
 		{ "MK-5100150", nullptr,    { 0x19D718, 0 }, { 0x43700000 } },		// Virtua Fighter 3 TB (PAL)
 		{ "HDR-0002  ", nullptr,    { 0x199FB0, 0 }, { 0x43700000 } },		// Virtua Fighter 3 TB (JP)
 		{ "MK-5105450", nullptr,    { 0x456378, 0 }, { 0x43700000 } },		// Virtua Tennis (v1.001) (PAL)
