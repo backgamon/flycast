@@ -250,6 +250,7 @@ const Cheat CheatManager::_widescreen_cheats[] =
 		{ "T20801M   ", nullptr,    { 0x1AAC80, 0x1AACB0, 0 }, { 0x43F00000, 0x3F400000 } },	// Tetris 4D (JP)
 		{ "MK-5101153", nullptr,    { 0x14EFA8, 0x14EFD8, 0 }, { 0x43F00000, 0x3F400000 } },	// Timestalkers (PAL)
 		{ "T7009D50  ", nullptr,    { 0x39173C, 0 }, { 0x3F400000 } },		// Tech Romancer (PAL)
+	        { "T15122N   ", nullptr,    { 0x8E7A80, 0x8E7AB4, 0 }, { 0x43E10000, 0x3FAAAAAB } },	// The Ring: Terror's Realm (USA)
 		{ "T35402M   ", nullptr,    { 0x315370, 0x3153A0, 0 }, { 0x43F00000, 0x3F400000 } },	// Tokyo Bus Guide (JP) doesn't work?
 		{ "T40201D 50", nullptr,    { 0x1D9F10, 0 }, { 0x3F400000 } },		// Tokyo Highway Challenge (PAL)
 		{ "T40210D 50", nullptr,    { 0x21E4F8, 0 }, { 0x43700000 } },		// Tokyo Highway Challenge 2 (PAL)
