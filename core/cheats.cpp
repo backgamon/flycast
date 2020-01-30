@@ -154,7 +154,7 @@ const Cheat CheatManager::_widescreen_cheats[] =
 				{ 0x43F00000, 0x3F400000, 0x3F800000 } },					// Napple Tale: Arsia in Daydream (JP)
 //crash		{ "MK-51178  ", nullptr,    { 0x23AF00, 0x23B160, 0x144D40, 0x2105B4, 0x705B40, 0 },
 //				{ 0xBFAAAAAB, 0xBFAAAAAB, 0xBFAAAAAB, 0xBFAAAAAB, 0x44558000 } },	// NBA 2K2
-	        { "T-9502D    ", nullptr,    { 0xBDE9B0, 0xBDE9C4, 0 }, { 0x3F400000, 0x3FA00000 } },	// Nightmare Creatures II (PAL)
+	        { "T9502D    ", nullptr,    { 0xBDE9B0, 0xBDE9C4, 0 }, { 0x3F400000, 0x3FA00000 } },	// Nightmare Creatures II (PAL)
 		{ "T9504M    ", nullptr,    { 0xCDE848, 0xCDE844, 0 }, { 0x3F400000, 0x3FA00000 } },	// Nightmare Creatures II (USA)
 		{ "MK-5110250", nullptr,    { 0x87B5A4, 0 }, { 0x43700000 } },		// Outtrigger (PAL)
 		{ "HDR-0118  ", nullptr,    { 0x83E284, 0 }, { 0x43700000 } },		// Outtrigger (JP)
