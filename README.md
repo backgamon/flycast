@@ -103,6 +103,6 @@ $ make
 ```
 
 ## Packaging status
-
+Update
 [![Packaging status](https://repology.org/badge/vertical-allrepos/flycast.svg)](https://repology.org/project/flycast/versions)
 Small modif - compile
